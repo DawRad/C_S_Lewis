@@ -11,3 +11,43 @@ h1 {
 	font-family: algerian;
 	text-align: center;
 }
+
+#container
+{
+	width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#title
+{
+	background-color: #73ade8;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+
+#nav
+{
+	float: left;
+	background-color: lightgray;
+	width: 180px;
+	min-height: 688px;
+	padding: 10px;
+}
+
+#content
+{
+	float: left;
+	padding: 20px;
+	width: 1166px;
+}
+
+#footer
+{
+	clear: both;
+	background-color: #73ade8;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
