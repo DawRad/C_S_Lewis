@@ -14,7 +14,7 @@ h1 {
 
 #container
 {
-	width: 1366px;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -24,23 +24,24 @@ h1 {
 	background-color: #73ade8;
 	color: white;
 	text-align: center;
-	padding: 15px;
+	padding: 1.5%;
 }
 
 #nav
 {
 	float: left;
 	background-color: lightgray;
-	width: 180px;
-	min-height: 688px;
-	padding: 10px;
+	width: 18%;
+	/* height: 100%; */
+	/* min-height: 688px; */
+	padding: 1%;
 }
 
 #content
 {
 	float: left;
-	padding: 20px;
-	width: 1166px;
+	padding: 2%;
+	width: 76%;
 }
 
 #footer
@@ -49,5 +50,16 @@ h1 {
 	background-color: #73ade8;
 	color: white;
 	text-align: center;
-	padding: 20px;
+	padding: 2%;
+}
+
+.cols-container
+{
+	width: 100%;
+}
+
+.cols-container:after {
+  content:'';
+  display:block;
+  clear:both;
 }
